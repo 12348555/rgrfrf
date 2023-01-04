@@ -1,12 +1,12 @@
 noseX=0
 noseY=0
 
-function setup(){
-    clown_nose=loadImage()
+function preload(){
+    clown_nose=loadImage('https://i.postimg.cc/rmxHC8Q6/clown-nose.png')
 }
 
 function setup(){
-canvas=createcanvas(300,300);
+canvas=createCanvas(300,300);
 canvas.center();
 video=createCapture(VIDEO);
 video.size(300,300);
